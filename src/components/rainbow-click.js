@@ -7,7 +7,7 @@ function RainbowClick() {
   // console.log(fruit1, fruit2, fruit3);
 
   const [numClicks, setNumClicks] = useState(0);
-  const [playerName, setPlayerName] = useState("Default Name");
+  const [playerName, setPlayerName] = useState("Enter a Name");
   // const [playerInventory, setPlayerInventory] = useState([]);
   // const [playerStats, setPlayerStats] = useState({
   //   age: 18,
