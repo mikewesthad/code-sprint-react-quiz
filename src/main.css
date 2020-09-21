@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  /* font-size is a property that is inherited. */
+  font-size: 22px;
+}
+
+body {
+  /* You can apply multiple style declarations inside of a block. */
+  background: url("./images/memphis-colorful-dim.png");
+  color: rgb(4, 0, 17);
+  max-width: 800px;
+  /* This margin auto trick centers block elements. */
+  margin: 0 auto;
+  /* font-family: "Century Gothic", sans-serif; */
+  font-family: "PT Sans", sans-serif;
+}
+
+/* Base link state. */
+a {
+  transition: color 0.15s, background-color 0.15s;
+}
+
+/* Unvisited link - which is the default state. :link is a pseudo-class. */
+a:link {
+  background-color: transparent;
+  color: rgb(174, 0, 180);
+}
+
+/* Visited link. */
+a:visited {
+  background-color: transparent;
+  color: rgb(148, 0, 153);
+}
+
+/* Focused link. */
+a:focus {
+  background-color: rgb(174, 0, 180);
+  color: white;
+}
+
+/* Hovered link. */
+a:hover {
+  background-color: rgb(174, 0, 180);
+  color: white;
+}
+
+.welcome-message {
+  font-size: 1.25em;
+}
