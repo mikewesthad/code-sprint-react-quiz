@@ -1,7 +1,7 @@
 import React from "react";
 
 function PlayPage() {
-  return <div>Play Page</div>;
+  return <div>Start the game</div>;
 }
 
 export default PlayPage;
